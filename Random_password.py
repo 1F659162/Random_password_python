@@ -10,7 +10,7 @@ while True  :
             rand_a_z = random.choice('abcdefghijklmnopqrstuvwxyz')
             rand_A_Z = random.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
             
-            total += random.choice([rand_int , rand_a_z , randA_Z])
+            total += random.choice([rand_int , rand_a_z , rand_A_Z])
     print("random >> " , total)
     print("\nEnter c tocontinue.")
     print("Enter e to exit.")
