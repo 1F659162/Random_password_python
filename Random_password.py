@@ -10,13 +10,13 @@ while True  :
             rand_a_z = random.choice('abcdefghijklmnopqrstuvwxyz')
             rand_A_Z = random.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
             
-            total += random.choice([rand_int , rand_a_z])
+            total += random.choice([rand_int , rand_a_z , randA_Z])
     print("random >> " , total)
     print("\nEnter c tocontinue.")
     print("Enter e to exit.")
-    CR = input("Enter : ")
-    if(CR == 'c') :
+    Con_exit = input("Enter : ")
+    if(Con_exit == 'c') :
         print()
         continue
-    else :
+    elif(Con_exit == 'e') :
         break
